@@ -20,13 +20,13 @@ function descriptoAlgoritmo(texto){
     for(j = 0 ; j < dados.length; j++){
         
         contador++;
-        leitor = (ASC(dados.substr(j, 1)))-15;
+        leitor = (ASC(dados.substr(j, 1)))- 2;
 
         if(contador == 50){
             contador = 1;
         }
 
-        if( leitor < 31||leitor >125){
+        if( leitor < 30||leitor >125){
             leitor += 126;
 
         }

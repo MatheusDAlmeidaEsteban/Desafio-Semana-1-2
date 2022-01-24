@@ -26,12 +26,12 @@ function criptoAlgoritmo(texto){
     
     for(i = 0 ; i < dados.length; i++){
         contador++;
-        leitor = (ASC(dados.substr(i, 1))) + 15;
+        leitor = (ASC(dados.substr(i, 1))) + 2;
         if(contador == 50){
             contador = 1;
         }
 
-        if( leitor <31||leitor > 125){
+        if( leitor <30||leitor > 125){
             leitor -= 126;
 
         }
