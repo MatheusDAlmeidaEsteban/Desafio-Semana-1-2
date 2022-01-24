@@ -89,15 +89,15 @@ body,ul,li, p{
 }
 
 @media screen and (max-width: 600px ) {
-    html{
-        width: 100%;
-        height: auto;
+    body{
+        width:60% ;
+        height: 60%;
     }
 }
 
-@media (max-aspect-ratio: 16/9) {
-    html{
-        width: auto;
-        height: 100%;
+@media screen and (max-width: 780px ) {
+    body{
+        width: 100%;
+        height: 60%;
     }
 }
