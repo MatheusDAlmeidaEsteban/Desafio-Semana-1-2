@@ -1,13 +1,12 @@
 
-body{
+body {
     margin: 0;
-    width: auto;
-    height: auto;
+    padding: initial;   
+    background-color: #1d1e20;
 }
 
 .header{
-    width: auto;
-    height: auto;
+   
     background: #1d1e20;
     display: flex;
     flex-wrap: wrap;
@@ -23,8 +22,7 @@ body{
 }
 
 .main{
-    width: auto;
-    height: auto;
+    
     background: #201b2c;
     display: flex;
     justify-content: center;
@@ -71,9 +69,7 @@ body,ul,li, p{
 }
 
 .footer{
-    width: auto;
-    height: auto;
-    background: #1d1e20;
+        
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -92,22 +88,16 @@ body,ul,li, p{
     align-items: center;
 }
 
-@media screen and (max-width: 768px){
-    section, aside{
+@media screen and (max-width: 600px ) {
+    html{
         width: 100%;
-        padding: 0;
-
+        height: auto;
     }
 }
 
-@media screen and (max-width: 768px){
-    nav li{
-       float: none;
-       text-align: center;
-       width: 100%;
-    }
-
-    footer p {
-        display: none;
+@media (max-aspect-ratio: 16/9) {
+    html{
+        width: auto;
+        height: 100%;
     }
 }
