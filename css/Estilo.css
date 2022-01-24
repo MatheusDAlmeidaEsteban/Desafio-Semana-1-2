@@ -1,0 +1,85 @@
+
+body{
+    margin: 0;
+}
+
+.header{
+    height: auto;
+    background: #1d1e20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;    
+}
+.logo{
+    width: 45px;
+    height: 40px;
+    border: 15px;
+    border-radius: 10px;
+}
+
+.main{
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body,ul,li, p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h1{
+    font-weight: 600 ;
+    font-family: cursive    ;
+    font-size: 30px;
+    color: azure;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.textarea{
+    margin: 5px;
+    width: auto;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.botao{ 
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.footer{
+    
+    background: #1d1e20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;   
+
+}
+
+#autor{
+    color: azure;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
