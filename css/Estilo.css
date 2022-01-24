@@ -1,10 +1,12 @@
 
 body{
     margin: 0;
+    width: auto;
+    height: auto;
 }
 
 .header{
-    
+    width: auto;
     height: auto;
     background: #1d1e20;
     display: flex;
@@ -21,6 +23,8 @@ body{
 }
 
 .main{
+    width: auto;
+    height: auto;
     background: #201b2c;
     display: flex;
     justify-content: center;
@@ -67,7 +71,8 @@ body,ul,li, p{
 }
 
 .footer{
-    
+    width: auto;
+    height: auto;
     background: #1d1e20;
     display: flex;
     flex-wrap: wrap;
@@ -87,16 +92,22 @@ body,ul,li, p{
     align-items: center;
 }
 
-@media (min-aspect-ratio: 16/9) {
-    #videoBG {
+@media screen and (max-width: 768px){
+    section, aside{
         width: 100%;
-        height: auto;
+        padding: 0;
+
     }
 }
 
-@media (max-aspect-ratio: 16/9) {
-    #videoBG {
-        width: auto;
-        height: 100%;
+@media screen and (max-width: 768px){
+    nav li{
+       float: none;
+       text-align: center;
+       width: 100%;
+    }
+
+    footer p {
+        display: none;
     }
 }
