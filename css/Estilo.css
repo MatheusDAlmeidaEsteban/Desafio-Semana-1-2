@@ -4,6 +4,7 @@ body{
 }
 
 .header{
+    
     height: auto;
     background: #1d1e20;
     display: flex;
@@ -27,6 +28,7 @@ body{
 }
 
 body,ul,li, p{
+    
     margin: 0;
     padding: 0;
     list-style: none;
@@ -76,10 +78,25 @@ body,ul,li, p{
 }
 
 #autor{
+    height: auto;
     color: azure;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
     display: flex;
     align-items: center;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #videoBG {
+        width: auto;
+        height: 100%;
+    }
 }
